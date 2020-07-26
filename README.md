@@ -13,3 +13,4 @@
 - The game uses words in the length of 3-7 letters hence scoring would be in the range of 1-5 for the words found provided it is a valid word in the trie
 - The game ends when both users have forfeited the game or if there are no more words to be found in the grid
 - The game displays all the words that could be found in the end along with the winner of the game
+- The board size can be increased by changing the #define bsize
