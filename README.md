@@ -7,7 +7,7 @@
 - The original version was intended for windows and hence used conio.h but this version uses the curses.h library on linux. This is not part of the standard g++ package but can be installed by running "sudo apt-get install libncurses5-dev libncursesw5-dev" (for Debian-based/Ubuntu) or equivalent 
 - This also uses pthreads which is part of the standard g++ package hence nothing new has to be installed
 - A compiled version of the game is present called boggle which has been compiled using "g++ -o boggle boggle.cpp -pthread -lncurses"
-- The wordlist_new.txt file contains a few default words that can be used to play a basic version of the game
+- **The wordlist_new.txt file contains a few default words that can be used to play a basic version of the game and hence a lot of words can be missing**
 - It is not recommended to use the whole dictionary as the trie structure generated in the beginning will run out of heap space
 - The boggle.cpp contains the source code of the game written in C++
 - The game allows a user to search the grid for 10sec before timing out the screen to allow the next player to play
