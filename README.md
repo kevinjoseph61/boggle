@@ -3,6 +3,7 @@
 ## a 1v1 game for playing boggle on a linux terminal
 
 - Boggle is a popular game that is basically searching for words in a grid but unlike normal wordsearches you can move a step in any direction (except the one direction you came from) to make valid words
+- Demo can be found at https://drive.google.com/file/d/1UozMpnLUP-g-WSlFw-QAIrV-jRTj7CRW/view?usp=sharing
 - The original version was intended for windows and hence used conio.h but this version uses the curses.h library on linux. This is not part of the standard g++ package but can be installed by running "sudo apt-get install libncurses5-dev libncursesw5-dev" (for Debian-based/Ubuntu) or equivalent 
 - This also uses pthreads which is part of the standard g++ package hence nothing new has to be installed
 - A compiled version of the game is present called boggle which has been compiled using "g++ -o boggle boggle.cpp -pthread -lncurses"
